@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--FontAwesmoe-->
+    <script src="https://kit.fontawesome.com/57e04a85a2.js" crossorigin="anonymous"></script>
+    <!--GoogleFonts-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+    
+    
+    <title>Nexos</title>
+</head>
+<body>
+
+
+    <header class="header">
+        <nav class="nav">
+            <a href="./index.html" class="logo nav-link"><img src="./Materiales/logo.png" width="180px" height="40px" alt=""></a>
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-item"> <a href="#Nosotros" class="nav-menu-link nav-link">Nosotros</a></li>
+                <li class="nav-menu-item"> <a href="#Noticias" class="nav-menu-link nav-link">Noticias</a></li>
+                <li class="nav-menu-item"> <a href="#Contacto" class="nav-menu-link nav-link">Ayuda</a></li>
+            </ul>
+            <button type="button" class="btn" id="open">Ingresar</button>
+
+        </nav>
+        
+    </header>
+
+    <div class="modal_container" id="modal_container">
+    <div class="imgmodal">
+        <img src="./Materiales/imagen-modal.JPG" alt="">
+    </div>
+    <h1 class="registrar">Registrar</h1>
+    <div class="container">
+    <div class="mi-empresa">
+        <div class="imgmaletin"><img src="./Materiales/icono-maletin.png" alt="iconoMaletin"></div>
+        <h2 class="mi-empresatitulo">MI EMPRESA</h2>
+        <p>Breve explicacion a lo que nos referimos</p>
+    </div>
+    <div class="mi-organizacion">
+        <div class="imgpersona"><img src="./Materiales/icono-persona.png" alt=""></div>
+        <h2 class="mi-organizaciontitulo">MI ORGANIZACION</h2>
+        <p>Estamos para ayudarlos a tener exito</p>
+    </div>
+    </div>
+</div>
+
+
+    <section id="title">
+        <div class="title-container">
+            <h1>¡Actúa para cambiar el mundo!</h1>
+            <h2>Fomentamos el vinculo entre empresas y organizaciones civiles 
+                para generar un impacto positivo en la sociedad.
+                Descubri diferentes maneras de involucrar tu organizacion con la sociedad</h2>
+        </div>
+    </section>
+
+    <main>
+
+
+          <div class="grid-container">
+            <div class="grid-item">
+                <img src="./Materiales/oficina.png" alt="imagen1" width="200px"  class="gallery-imagen">
+            </div>
+            <div class="grid-item">
+                <h3 id="Nosotros">Soluciones para empresas</h3>
+            <p>Generamos un medio para que las empresas se involucren en las actividades de responsabilidad social.
+                ¡Creá un grupo de voluntarios en tu organizacion y se parte del cambio!
+            </p>       
+            </div>
+            <div class="grid-item">
+                    <h3>Soluciones para organizaciones</h3>
+                    <p>Apoyamos a las organizaciones sociales para que alcancen sus objetivos.
+                        Ponemos a su disposicion una comunidad de voluntarios dispuestos a apoyarlos en sus necesidades.
+                        Equipos de voluntarios por empresas dispuestos a potenciar tu impacto en la sociedad.
+                    </p>
+            </div>
+            <div class="grid-item">
+                    <img src="./Materiales/voluntariado.jpg" width="100%" height="220px" alt="">
+            </div>
+        </div>
+
+        <!--SECCION OPORTUNIDADES-->
+        <section class="oportunidades">
+            <h3>Encuentra las mejores oportunidades</h3>
+            <p>La plataforma cuenta con gran variedad de proyectos locales (sociales, educativos y medioambientales)
+                donde encontraras el que mejor se adapte a la experiencia que estas buscando.
+                Te ayudamos en la coordinacion con la organizacion de forma simple y rapida.
+            </p>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box voluntario">
+                            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                            <div class="mano"><img src="./Materiales/icono-mano.png" width="100%" alt=""></div>
+                            <div class="mas"><img src="./Materiales/icono-mas.png" alt=""></div>
+                            <h5 class="title">Ser voluntario</a></h5>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box donar">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <div class="manocorazon"><img src="./Materiales/icono-mano-corazon.png" alt=""></div>
+                            <div class="mas"><img src="./Materiales/icono-mas.png" alt=""></div>
+                            <h5 class="title">Donar</h5>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box reciclar">
+                            <div class="icon"><i class="bx bx-tachometer"></i></div>
+                            <div class="reciclaricono"><img src="./Materiales/icono-reciclar.png" alt=""></div>
+                            <div class="mas"><img src="./Materiales/icono-mas.png" alt=""></div>
+                            <h5 class="title">Voluntariado</h5>            
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box llamados">
+                            <div class="icon"><i class="bx bx-world"></i></div>
+                            <div class="maletin"><img src="./Materiales/icono-maletin.png" alt=""></div>
+                            <div class="mas"><img src="./Materiales/icono-mas.png" alt=""></div>
+                            <h5 class="title">Lamados laborales</h5>
+                        </div>
+                    </div>
+        
+                </div>
+              </div>
+        </section>
+    </main>
+
+    <!--SECCION NOTICIAS-->
+    <section id="Seccionnoticias" class="Noticias">
+        <div class="contenedor">
+    
+            <div class="noticias-title">
+                <h2 id="Noticias">Noticias</h2>
+            </div>
+    
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box button-container">
+                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <img class="imgnoticias" src="./Materiales/Noticias/pexels-anna-shvets-5029919.jpg" alt="" >
+                        <div class="reloj"><img src="./Materiales/icono-reloj.png" alt=""></div>
+                        <div class="calendario"><img src="./Materiales/icono-calendario.png" alt=""></div>
+                        <h4 class="title">Jornada de plantacion</a></h4>
+                        <a href="#">Plantaciones</a>
+                        <p class="parrafo">Las acciones de restauración comprenden la plantación de árboles nativos, el control de especies exóticas 
+                            invasoras que desplazan a las autóctonas.</p>
+                        <a href="#" id="leermas"><img src="./Materiales/icono-flecha.png" alt=""> Leer mas</a>
+                        
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box button-container">
+                        <div class="icon"><i class="bx bx-file"></i></div>
+                        <img class="imgnoticias" src="./Materiales/Noticias/pexels-magda-ehlers-11740792.jpg" alt="">
+                        <div class="reloj"><img src="./Materiales/icono-reloj.png" alt=""></div>
+                        <div class="calendario"><img src="./Materiales/icono-calendario.png" alt=""></div>
+                        <h4 class="title"><h4>Nuevo refugio de animales</a></h4>
+                        <a href="#">Refugio</a>
+                        <p class="parrafo">El refugio de perros "Amigos verdaderos de Mary" fue centro de atención en la última sesión de la Junta Departamental.</p>
+                        <a href="#" id="leermas"><img src="./Materiales/icono-flecha.png" alt=""> Leer mas</a>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box button-container">
+                        <div class="icon"><i class="bx bx-tachometer"></i></div>
+                        <img class="imgnoticias" src="./Materiales/Noticias/pexels-rodnae-productions-6646976.jpg" alt="">
+                        <div class="reloj"><img src="./Materiales/icono-reloj.png" alt=""></div>
+                        <div class="calendario"><img src="./Materiales/icono-calendario.png" alt=""></div>
+                        <h4 class="title">Voluntariado</a></h4>
+                        <a href="#">Voluntariado</a>
+                        <p class="parrafo">Durante varias jorandas un grupo de voluntarios colaboró en la tarea de clasificar una donación de ropa para niños </p>
+                        <a href="#" id="leermas"><img src="./Materiales/icono-flecha.png" alt=""> Leer mas</a>
+                        
+                    
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box button-container">
+                        <div class="icon"><i class="bx bx-world"></i></div>
+                        <img class="imgnoticias" src="./Materiales/Noticias/pexels-thirdman-7656743.jpg" alt="">
+                        <div class="reloj"><img src="./Materiales/icono-reloj.png" alt=""></div>
+                        <div class="calendario"><img src="./Materiales/icono-calendario.png" alt=""></div>
+                        <h4 class="title">Lipieza de espacios publicos</a></h4>
+                        <a href="#">Lipiezas</a>
+                        <p class="parrafo">Programa de cuidado de las costas y de la fauna marina. Se realiza en distintas partes del mundo colaborando con las autoridades locales y nacionales.</p>
+                        <a href="#" id="leermas"><img src="./Materiales/icono-flecha.png" alt=""> Leer mas</a>
+                        
+                        
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+    </section>
+
+    <footer>
+
+            <div class="grid">
+                <div class="g-col-6 laptop"><img src="./Materiales/laptop-escritorio.jpg" width="100%" alt=""></div>
+                <div class="g-col-6 formulario">
+                    <form action="">
+
+                    <h2 class="contacto-title" id="Contacto">Contacto</h2>
+                    <input type="text" name="Nombre" placeholder="Nombre">
+                    <input type="text" name="Correo" placeholder="Correo">
+                    <textarea name="Mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+                    <input type="button" value="Enviar" id="button">
+            
+            
+                </form></div>
+            </div>
+
+            <div class="pie-pagina">
+
+
+                <div class="grupo-1 d-flex justify-content-center align-items-center">
+                    <div class="row">
+                      <div class="col">
+                          <div class="box">
+                        <figure>
+                            <a href="./index.html">
+                                <img src="./Materiales/logo-blanco.png" width="100%"  alt="">
+                            </a>
+                        </figure>
+                        </div>
+                      </div>
+                      <div class="col">
+                          <div class="box">
+                    
+                            <ul>
+                                <li>Nostros</li>
+                                <li>Noticias</li>
+                                <li>Contacto</li>
+                                <li>Terminos y Condiciones</li>
+                            </ul>
+                            
+                        </div>
+                      </div>
+                      <div class="col">
+                          <div class="box">
+                            <h2>Siguenos</h2>
+                            <div class="social-links">
+                                <a href="https://twitter.com/?lang=es" class="twitter">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                                <a href="https://es-la.facebook.com/" class="facebook">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                                <a href="https://www.instagram.com/?hl=es" class="instagram">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                                <a href="https://www.skype.com/es/" class="google-plus">
+                                    <ion-icon name="logo-skype"></ion-icon></i>
+                                </a>
+                                <a href="https://uy.linkedin.com/" class="linkedin">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                
+                
+                
+                    <!-- Logo de whattsap -->
+                    <a href="https://web.whatsapp.com/" class="btn-wsp" target="_blank">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </div>
+        
+
+    </footer>
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,653 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+body{
+  font-family: 'DM Sans', sans-serif;
+    
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+/* BARRA DE NAVEGACION */
+
+.header {
+    background-color: transparent;
+    height: 60px; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 2%;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 2%;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link:hover {
+    color: slategrey;
+    transition: 0.5s;
+
+}
+
+.nav-toggle{
+    color: black;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+
+}
+
+.btn{
+    background-color: blueviolet;
+    height: 45px;
+    width: 100px;
+    margin-top: 30px;
+    color: white;
+
+}
+
+/* HEADER */
+
+#title {
+    width: 100%;
+    height: 100vh;
+    background: url(./Materiales/manos.jpg) top ;
+    background-size: cover;
+    position: relative;
+  }
+#title:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+#title .title-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+#title h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-family: "Satisfy", serif;
+    color: #fff;
+  }
+#title h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    
+  }
+
+  /* SECCION NOSTROS */
+
+.grid-container{
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-auto-rows: 300px;
+    padding: 50px;
+    background-color: #5298ff;
+}
+
+.grid-item {
+    position: relative;
+    padding: 80px;
+    color: white;
+}
+
+.gallery-imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.oportunidades{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    gap: 5%;
+    
+}
+
+.voluntario{
+    background-color: #dc3545;
+    width: 30em;
+    border-radius: 1.5em;
+    padding: 10%;
+
+}
+
+.mano{
+  width: 2em;
+  height: 3em;
+}
+
+.mas{
+  padding-left: 85%;
+  width: 1em;
+  height: 1em;
+}
+
+.manocorazon{
+  width: 1em;
+  height: 0.5em;
+}
+
+.donar{
+    background-color: #ff9c07;
+    border-radius: 1.5em;
+    width: 30em;
+}
+
+.reciclar{
+    background-color: #28a745;
+    border-radius: 1.5em;
+    width: 16em;
+}
+
+.reciclaricono{
+  width: 2em;
+  height: 3em;
+}
+
+.llamados{
+    background-color: #17a2b8;
+    border-radius: 1.5em;
+    width: 30em;
+}
+
+.maletin{
+  width: 2em;
+  height: 3em;
+}
+
+
+/* SECCION NOTICIAS */
+
+.contenedor{
+    padding: 100px;
+}
+
+.noticias-title{
+    text-align: center;
+    margin-top: 30px;
+    color: #eee;
+}
+
+.Noticias{
+background-color: #5298ff;
+
+}
+
+.title{
+    font-weight: 100;
+
+}
+
+.Noticias .icon-box {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #fff;
+  }
+
+
+  .imgnoticias{
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+    
+  }
+
+  .button-container{
+    display:inline-block;
+    position:relative;
+    }
+      
+    .button-container a{
+    position: absolute;
+    right: 45%;
+    bottom: 55%;
+    background-color: #7749f8;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:0;
+    
+    }
+    
+    .button-container a:hover{
+    background-color: #5227cc ;
+    cursor:pointer;
+    color:white;
+    }
+
+  .reloj{
+      right: 20%;
+  }
+
+  .descripcion{
+      position: absolute;
+      color: #fff;
+      background-color: #5298ff;
+      margin-bottom: 50px;
+
+  }
+
+  .parrafo{
+      margin-top: 10px;
+      color: grey;
+  }
+
+  #leermas{
+      background-color: #eee;
+      color: grey;
+      font-size: 12px;
+      top: 95%;
+      left: 60%;
+  }
+  
+  .Noticias .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .Noticias .title a {
+    color: #111;
+    transition: 0.3s;
+  }
+  .Noticias .description {
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 0;
+  }
+  .Noticias .icon-box:hover {
+    border-color: #ffb727;
+  }
+  .Noticias .icon-box:hover .title a {
+    color: #ffb727;
+  }
+
+  /*FOOTER*/
+
+  footer{
+      margin-top: 15%;
+      width: 100%;
+      display: inline-block;
+  }
+
+  .laptop{
+      width: 55%;
+      height: 80px;
+  }
+
+  .formulario{
+      padding-left: 65%;
+      margin-top: 0;
+  }
+
+  form{
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .contacto-title{
+    color: #3b434a;
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 20%;
+
+  }
+  
+  input , textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 1vw;
+  }
+  
+  textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  
+  #button{
+    background: #5227cc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #button:hover {
+    cursor: pointer;
+  }
+
+  
+  /* FOOTER */
+
+.pie-pagina{
+    width: 100%;
+    background-color: #7749f8;
+    color: white;
+  }
+  
+  .pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    background-color: #7749f8;
+  }
+  
+  .pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+  
+  }
+  
+  .pie-pagina .grupo-1 .box h2{
+    margin-bottom: 25px;
+  }
+  
+  .pie-pagina .grupo-1 .box iframe {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ca8e14;
+  }
+  
+  .pie-pagina .grupo-1 .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #7749f8;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  .pie-pagina .grupo-1 .social-links a:hover {
+    background: #5227cc;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+
+  /* LOGO DE WHATTSAPP */
+
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+  }
+  
+  .btn-wsp:hover {
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+  }
+
+  /*MODAL*/
+
+  .modal_container{
+    display: none;
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .show{
+    pointer-events: auto;
+    opacity: 1;
+  }
+
+  .container{
+    margin: 0;
+    padding-top: 25%;
+    background-color: #fff;
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    
+}
+
+
+.imgmaletin{
+    width: 50%;
+    border-radius: 10%;
+    background-color: #5298ff;
+}
+
+.imgpersona{
+    background-color: #7749f8;
+    border-radius: 10%;
+}
+
+img{
+    float: left;
+}
+
+.mi-empresa{
+    display: flex;
+    padding-left: 5px;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.mi-empresatitulo{
+    color: #5298ff;
+}
+
+.mi-organizacion{
+    display: flex;
+    padding-left: 5px;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.mi-organizaciontitulo{
+    color: #7749f8;
+}
+
+.registrar{
+    text-align: center;
+}
+
+  
+
+@media (max-width: 768px) {
+
+    body {
+        padding-top: 70px;
+    }
+
+
+    .header{
+        height: 60px;
+    }
+
+    .logo {
+        font-size: 25px;
+        line-height: 60px;
+        padding: 0 20px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+    }
+
+    .nav-menu-item{
+        line-height: 70px;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+
+    .nav-menu_visible{
+        
+        left: 0;
+    }
+}
+
+@media (max-width:390px) {
+    .grid-container {
+        grid-template-columns: repeat(2 , 1fr);
+        background-color: #1c78fd;
+        width: 100%;
+        padding: 0px;
+    }
+    .grid-item:nth-child(1) {
+        grid-column-start: span 2;
+        width: 100%;
+        padding:0;
+    
+    }
+    .grid-item:nth-child(2) {
+        grid-column-start: span 2;
+        padding:0;
+    
+    }
+    
+    .grid-item:nth-child(3) {
+        grid-row-start: span 1;
+        padding:0;
+    
+    }
+    
+    .grid-item:nth-child(4) {
+        grid-column-start: span 1;
+        padding:0;
+    
+    }
+
+    
+}
+
+
